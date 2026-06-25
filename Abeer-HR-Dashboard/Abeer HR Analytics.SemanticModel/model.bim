@@ -1,0 +1,1482 @@
+{
+  "name": "816011e3-d74b-4954-88e6-6488bbffe492",
+  "compatibilityLevel": 1550,
+  "model": {
+    "culture": "en-US",
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "sourceQueryCulture": "en-US",
+    "tables": [
+      {
+        "name": "Employees",
+        "lineageTag": "191bcdbb-f34f-4a37-8af5-e40584424008",
+        "columns": [
+          {
+            "name": "EmployeeID",
+            "dataType": "string",
+            "sourceColumn": "EmployeeID",
+            "lineageTag": "4cfe7cc8-4a70-4f46-b00a-bd5187dac34f",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "FullName",
+            "dataType": "string",
+            "sourceColumn": "FullName",
+            "lineageTag": "f9fb8d9c-08c7-4326-a80b-f06ac05a63d2",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Gender",
+            "dataType": "string",
+            "sourceColumn": "Gender",
+            "lineageTag": "31408c56-c7c8-458f-9dc7-b8010314af63",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Nationality",
+            "dataType": "string",
+            "sourceColumn": "Nationality",
+            "lineageTag": "3d53c732-3933-4a33-8d59-eb32d4ff4115",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "NationalityGroup",
+            "dataType": "string",
+            "sourceColumn": "NationalityGroup",
+            "lineageTag": "47bf1bf9-abcb-4323-aa9d-d852eca7fec5",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Department",
+            "dataType": "string",
+            "sourceColumn": "Department",
+            "lineageTag": "0772b07f-6675-4bae-97c4-206d7ef891a2",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "JobTitle",
+            "dataType": "string",
+            "sourceColumn": "JobTitle",
+            "lineageTag": "3f20825e-bee2-4317-a693-ca34f8db5311",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Facility",
+            "dataType": "string",
+            "sourceColumn": "Facility",
+            "lineageTag": "2d5ec1fa-f3c2-4a4a-a55e-809fae19a437",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "HireDate",
+            "dataType": "dateTime",
+            "sourceColumn": "HireDate",
+            "lineageTag": "d3d23334-c1a4-454e-b546-7cbf52f00fc5",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "formatString": "dd-mmm-yyyy"
+          },
+          {
+            "name": "TerminationDate",
+            "dataType": "dateTime",
+            "sourceColumn": "TerminationDate",
+            "lineageTag": "0718bf40-ca8e-4c5e-818c-50bd65c47da8",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "formatString": "dd-mmm-yyyy"
+          },
+          {
+            "name": "TerminationReason",
+            "dataType": "string",
+            "sourceColumn": "TerminationReason",
+            "lineageTag": "677b02ed-0ad7-4c40-837f-bc4eba126be0",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "TerminationType",
+            "dataType": "string",
+            "sourceColumn": "TerminationType",
+            "lineageTag": "6bd4f6db-96b2-4e19-9eae-cfe2ddaf935e",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "MonthlySalarySAR",
+            "dataType": "int64",
+            "sourceColumn": "MonthlySalarySAR",
+            "lineageTag": "cdee5182-e7e3-46bc-b26e-cd98371494fb",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "formatString": "#,0"
+          },
+          {
+            "name": "BirthDate",
+            "dataType": "dateTime",
+            "sourceColumn": "BirthDate",
+            "lineageTag": "b363a66f-e1c3-472c-a5cf-fb13fdb2ab1b",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "formatString": "dd-mmm-yyyy"
+          },
+          {
+            "name": "AgeBand",
+            "dataType": "string",
+            "sourceColumn": "AgeBand",
+            "lineageTag": "84cc68df-ee32-4ed5-b550-34faa5cad93a",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "TenureBand",
+            "dataType": "string",
+            "sourceColumn": "TenureBand",
+            "lineageTag": "9309985f-b13c-494c-9af8-09722641d3e8",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Grade",
+            "dataType": "string",
+            "sourceColumn": "Grade",
+            "lineageTag": "a11e7c59-831d-4a2a-aae8-0eb3b5e1c6db",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "PerformanceRating",
+            "dataType": "double",
+            "sourceColumn": "PerformanceRating",
+            "lineageTag": "36d07ea3-4c89-49d2-9028-90709c7ae3ba",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "formatString": "0.0"
+          },
+          {
+            "name": "EmploymentType",
+            "dataType": "string",
+            "sourceColumn": "EmploymentType",
+            "lineageTag": "33ed3a1d-8a20-4545-8829-a79df255d39d",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Employees",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"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\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [#\"EmployeeID\" = _t, #\"FullName\" = _t, #\"Gender\" = _t, #\"Nationality\" = _t, #\"NationalityGroup\" = _t, #\"Department\" = _t, #\"JobTitle\" = _t, #\"Facility\" = _t, #\"HireDate\" = _t, #\"TerminationDate\" = _t, #\"TerminationReason\" = _t, #\"TerminationType\" = _t, #\"MonthlySalarySAR\" = _t, #\"BirthDate\" = _t, #\"AgeBand\" = _t, #\"TenureBand\" = _t, #\"Grade\" = _t, #\"PerformanceRating\" = _t, #\"EmploymentType\" = _t]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(Source,{{\"HireDate\", type date}, {\"TerminationDate\", type date}, {\"MonthlySalarySAR\", Int64.Type}, {\"BirthDate\", type date}, {\"PerformanceRating\", type number}}, \"en-US\")",
+                "in",
+                "    #\"Changed Type\""
+              ]
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ]
+      },
+      {
+        "name": "Recruitment",
+        "lineageTag": "6bb78926-7c66-4db8-8484-ad93684e330f",
+        "columns": [
+          {
+            "name": "RequisitionID",
+            "dataType": "string",
+            "sourceColumn": "RequisitionID",
+            "lineageTag": "e9dbd7fd-b4e6-4bba-9c9c-1a9c19e1ad15",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Position",
+            "dataType": "string",
+            "sourceColumn": "Position",
+            "lineageTag": "62d1f509-9b97-4ab0-9aa4-ca95862f3f6c",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Department",
+            "dataType": "string",
+            "sourceColumn": "Department",
+            "lineageTag": "df73bbe1-4c7a-4c4e-935a-334ee03b14dc",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Facility",
+            "dataType": "string",
+            "sourceColumn": "Facility",
+            "lineageTag": "2673ae1b-f5a9-4de1-8f5e-377faa3ac2fa",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "PostingDate",
+            "dataType": "dateTime",
+            "sourceColumn": "PostingDate",
+            "lineageTag": "59f1f70a-38cf-4636-9d5b-9c4a932d3e13",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "formatString": "dd-mmm-yyyy"
+          },
+          {
+            "name": "FilledDate",
+            "dataType": "dateTime",
+            "sourceColumn": "FilledDate",
+            "lineageTag": "3af20218-2542-4336-b1f0-f7f9b859370a",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "formatString": "dd-mmm-yyyy"
+          },
+          {
+            "name": "Status",
+            "dataType": "string",
+            "sourceColumn": "Status",
+            "lineageTag": "ac442aeb-db07-4f3e-ba43-1a23d01b8f25",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "DaysToFill",
+            "dataType": "int64",
+            "sourceColumn": "DaysToFill",
+            "lineageTag": "d18887f0-6386-470b-9a39-aa4110480662",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "formatString": "#,0"
+          },
+          {
+            "name": "Applications",
+            "dataType": "int64",
+            "sourceColumn": "Applications",
+            "lineageTag": "13e1b7ec-5803-46ae-864d-b24e3c3f0b7a",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "formatString": "#,0"
+          },
+          {
+            "name": "OffersMade",
+            "dataType": "int64",
+            "sourceColumn": "OffersMade",
+            "lineageTag": "2f33492b-0307-4cfe-ad7a-20feb85a5959",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "formatString": "#,0"
+          },
+          {
+            "name": "OffersAccepted",
+            "dataType": "int64",
+            "sourceColumn": "OffersAccepted",
+            "lineageTag": "b4d49502-d58c-463b-b896-3dfac72bd21d",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "formatString": "#,0"
+          },
+          {
+            "name": "Source",
+            "dataType": "string",
+            "sourceColumn": "Source",
+            "lineageTag": "b4ef9e6d-bd74-4534-8ba4-3b8f543aee00",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Recruitment",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"rVxbc9u2Ev4rGj9Hc4gLQfAxTdvjnGlOUzszfej0gbFpmxNZ8khyctxff7ALEQII4kJSM1XHcmRptdjLt9/u4q+/rm5++WNNC1qui4Jcvbv61N3/6B5a9dN/X/eHbvuofnr/tW33q0/tfXfXbFYf2u1RPV2vbptt0701T+oV+AaErgt69W77utm8u/r9pd32P0uuXiLVQ6jHTXu3f+2Oz+pdVu8f2+3d29Xf7xwx1HtcfX56O3S741O7b17eVu8Ph+5wbLbH4b8Y4a53h5fuqKRbr26UTPdGqKJak8I8qdekVk9+7Tab9l79UMFXZvCB5PT4rdt+a+8/bodCsSv8Tvvm2O22h9WH3W5/322b424PMtw/d1slof7XMaFun5p982Brq+DqrXsNfWi2d62WSf+CVep1xenx5f0f77+s/rW6bu6bh6FgoNvfmq+rL+3d03a32T0qOfSvdnsQ7y18gD83z8/NsxFInWBpnkj13NaUBCUJOMReW0GphJIK/vYn9bfKgFa/Pzx0d+0e320LXzRHQepN2BotUj8B83JODp5JOEz4KB44Oa5EAaO7fWnvumajVLNC+1FPtr0twc+HsJJ+an40952Wg4NeUA79pF7TyhaKw2ehhfXmlLZ2eIPrG0tJ16/PzXZ10x52r/u79pBpTTVa00lZRMlpy0XQBTga++kRtSk5SWVB3yPFGvzGDwgoKjlZ9392X1e/Nt1+aEKgxtu3w7F9PqwsB0OH+7h92O2f0dvOhv+WG6q0hkrL0IhwbAu1ZdtW/Bjh/eBPPqhjeWxXEDjHAmjc2s/ep56o/xzDonhs3PK+QJwi2ugO3T2IOvvgaEw9BN2yAgGrk34+7J5fmu3b6s/266E7tgMXRI9RNv7Tq9JHezisPjf74zZq7N4Jvv+n++esLw5Soe/pJ9VQRNQDwShK2EnQhJDwss/N23632UzzRlt3HM+O90/AA5yEQ1Bogh5WplwRpOJ4dI0y9rs3bernA9W/jYWu41NjRDmbPNiJzopGLgHqK2vLwOImD6KVS+AC6qYPpSgQWtU535wPsH+MBQr4SzHp4GJawqyMZ6OfiDV1kw58ZTyS7PhOqgkOmbB6jKhkNKIihukf6WgllwjlBdPS6AxDl5sTS7AzUSVCFwhVR+0phRWoHNNLfi5WB49pKUsC1+WVa9HSPKFr6sQipi0Z/l+fHr88v2x2b22rzPOh3e+bzVAQePHtsXl4CCaTuLOrUyB2EKLEDUIgBLN1E4mNSruU5keh+DlxLBGMqQwwHUjC2Smn0LRY8NJ/tyqTqI/7vG/ujh0gAnT/HEP+1Hz75mKCKgjIKxuQJ72e8mmx0fNzauuJrokD5yqJOaTPa2UY/KJZJmBJwpJK/eG9WQ0Ab3E2p6zgA7oB77jevR7ab237AgUCWjpY/OvLy25/XN22++9dNvRVusLQ0R+iqytWXFnRkaScD+SDb/izEl99nl146l9lyqTj9OmJCg/c0RrWUqWFxgMhEWKaMsWNORxQKMjy4fVw3D2rX5xUNQn5YsLs3RHFPGfd6gye6Kloj+oLhKznQc6R6ECMraHVu1EL4W/JrDwXMHo2dNFzKTMH0MFZhgt1bfxFpJYBiXSI3R5eNzaLkQhPdnmOjsgK2xGdJKNhJcqCgb+OB09l5ugT6RI9yfoAjyEttsWVCyt0wkSPwwkNWztjs4LVuTzXobIYrTil5W2BihMN7OOXVR+Gftk+qnKlnVNvWiFUl3bn2lyuKXOrKQSVaOt5HBmIWtoJWQkMYeCw22eVBV5I4BjVR8CTOFmSzInreMifleJQY8FYHs3CWAhQYduWWxWgroo84AIyVUkgFadVCEKUkO/jV+59P5VXmJzBa+aQruMVQdUbkwiXTggB7Q/WITJTFNv1MOVBlvMFwQqIZJCGCCYmR8mRasRKcNUgwZXSOJs2oxS/iqTZ1KDkEquE2ESmOq/K9X/Zx8VeSYHTQtgAKESf0gCPpPxK2NV2NSAI0eV03u+r7RgrgRgdSGcn8uRQzi62ZMbXuSHqLcVMZFNBML7EoAcJl1hEDhQujiHVIGtdZQNfeIsym6qPBCVuF1GoNheSE7R+VuQ6nZhh3wE6daTzY2eQAFzj1QwJhnSgRSZhCe4eVolYtufcyiQXyOU8IqBvCJhMRvyTqaWV6KMng0zB/9q712P3vXVyxfR+k2ZpuIVC3EYYQb6ZV4maBGBogXjo8LqHdDhohCXRo+v/1ZoRm0QZGLKFHYv0uUEHi8xB/slqHGAIGzYU3WqcVdn8G8hJT1bVuhE009BKm8zVKcUxNDQxNLZkBIADZcsaZB6vS20K1XNFNDGWHdTBcPnS3gq3CUo5zDNYnJ+sjURiFRxcOZ2Y8xDbmS3UxKUrDdLqRE4yJ3ERsx8ABmooRN0bduJFzfsWWZ/+AqAFz/tG4USsmIapz/xDJq1C7EqKDXsrmgYiOT1qkEyeq6UeJuRzmRp5j447lDTNUWCrZXZhgpmmqOzWjgPnBDUEYf9IepkoFqQbOzrpglKM1iSFVZPEuV1BJvcMk9MENvNccM+cZXFy/jLH6cTSGN4zAaZ6cogTYdiuvB40SMQy6qewODqLBEpdYVe6geAolvQqvShZGGygMxx14Qrvxy1omggAvqycTDonEx2UVMIGoKWbVjDBaYacn4qqkObEhXyv7AOD73u8zlMWeEd1uQks0UOAEWKACCscpAOUnEdYelwct9gBWnpDRXq8gZ8esQwiLsR8Yy6xMAEfmhLCEsxXPBcTYKg1xWYv17RSs7TJFM0alF5rV48dxadSsLGXEStTE2qVzvhm4slvzktmFXkBnrmi0+LkeKOiDh6X1BVLnV1uVmxat9AdSYMZEwdvu6NfVNPuZY9u9aRStIyq+OTUNjqRRsrwfCNLd03wQBeODXkxm5ikiy2VQcmJasLjiDGnIJuYOuDojQwUIjyNU14NwFLIsarFDcKx1rMIEsplvN+Mr5nj6N5411k/HFuBjlGXbEiZJsm3qp5AW4QJHm4iEJqPGw81i2qLleqdIuRM95ozul6jR6ZZnSoCPkAGMj/6mITqf7aws2joo+myAQ47PeiO8agotLbGTQOWK9lMyo9YHJbXT8dQgmmSx8tkyZdMZLmVu/JgVoybA3eyQGoMCbttM0dw49Wr1IxVzxcNOiK6WSusKjqGwjDdfmo6pQv0YhfxzO5DVloqA6r9ACTsSaWohNWErkR0KJcHE6qscxYGwOdkJjBMOT5HyBoQBxn0RL2IIt/utrtHpYAndHqfD8opFCkZt3aRXc9DWC8uV/RoaEHsQtHJ73r+XTPbIssbwQbJJBrUNx67nHZxj9QDZdSi82KMcU2XsqCawHIWKfx+ZGnTiwEbqmd3Ij2Sv7aKCwXPWOGvv9TZI+9IKJ0S+/XbY9du85q2YxyDo6bSnx3R2D53ILku5y8MuR1/wNK13SMZqYL0sDTLHCXDgZMZcMgf5HRs3S1aSzOOqyeSWCJgYpMXs58F9Gd24Oh4XqY98yiT3Az2dpbMI0SGpEqS4PPBBGuDlzs4pW2zeUP7SfIwHsR3sLQczP9ry6EiH0yTopgdIHVJT6JzNDmssOaOLoRoS7tBapg9ayBS9oGJZw7+k4IuoGjdAxQ99B2hGosE3gZFscVzNUCgF3ZH1NFOZfp58bEaDYoXozNwbmkf1SBQF6YjI9IbeDquXyxIn3vXbIBjcV6G8txFAA2pZqQ1l4NlgT1hgmON/ZJEJCbrunbBEIIDZFmA8HA66GnXktPK6EHOKgMlvDO4mhaino7MRty6H2IRIxZT9NRULFEoURDTLqeCdJgp7KrD6dxJY8E0vTMCYYJMabx6HTsi7RH/0hstZOn5dEIW8s966IvYnafaG00TU1qHhJysq32BbKV9OkghpjoZYIRjIIeb5bmMckfn/xxkH2ehhZ4/MdPpjvEg4EEOro426Ehi1zG2AT2+l4YzLbkrM7pRNn8fTM+cFEN87O6j6H5llR5MI6RaPqfPAxQV44kJNPgu8mrZPRUkgMNrw4xVifyMDjcnuA1IJm6Zh0/plLnT5UCiYbhtjz92+29LNhe8wUpiqLqyT5XetJIeYS4yuksgKZkyd+PTKiy8oyenKIwuBKC6mVTaonGXxixMid7XD0mhWFI3OZvxpLK30Zk3rVj3Y26JDreO2RPl8choyu1iXHpr51WP+JIDnro/N3u+26N8iLWldzIt6/wQdcgiuaZH6GXm77ypas3ZjSSP+nR0kSBJ58/deRfoUG4P4I1Mm2MRmkwdIJWccY1OYmOfxGhx7eYxIhrOr77MDHyAQGB5Q29KPay47ATVuPkQVlvuH4DvyDssHJga0E5lgHaSRfYYEOgIt2D23feJa2au0Qi3WnfpcI0DmFmmxCCRYp8Q+c9Yf3NL41ALs7IvDEllEQRR+SRUeEiB2vGR6cmpgZaI2V6qk5kfy/vrj7cWa7i0iyhtnOKkFmxScDHhWgzdkLlQdhFmedGsfUr/DoZa2ssNgXoRdwsuMlTBzXnq6YXan16QeVsDhMl5FeMAz1U2ghp2WXlpMsx5eThOULF6glgpToYFBrxJPmHGi/xF3XjzgJqIJUx30W1PORd6pGIEJ0sGDoZXRBRhUF7XyU4wwQJ0YbLxQAEbUqDD9qtMXh5HOFuwZ21bk3Y+aocut5BC78NBgTo68kWQsp0+7pC6riLQQ6fSgprx6I7eOmt9Ph7lzzsf3CyxDQpQXuXNNoP6xNz+lb/UW9mrICP3ohBurxQFgBbKvhg38BDrVhDTBslQjly+3lToEiFUopeJaACGhFvpylogMt20m1OtcG6+zmEmzbRnqFCww1RcS2Wx7HIfYFEik7Ei7+ZPguRlanwmNaI7bjXS6t8ldEGXQCbPduoAM8dSK1UgysI9xgFvoVn1sa0FkpjLVU49cWXRX58qx3FH0ftxHfnscslqme7/RArqbPMUWXVa8holYm8EuauSdX8lLctF+LiNOJnH1zP+IqwTQnKJR5BBLvNbjQXHCWx3vjNkIIswslevsrCpVpm0J+4epnNgqhqM3aecZbYgClnMBemLLcrItTFV3qwmmbFjOO7P42MaIru1DIphl6DuBphYmD0afU0h9bcxGJskJZ/HDnknWFlXk/SXSwwu4COFNc0RwDK4yZE5PDaZ2XdrwNpUEFm3JxIhLnepI6XWTh0j/uhLVSS2AUBX1fKODLMZjuFiFppSJRNTpSCJXILwuD1tW5qbioc3tMgEpIEjqhfwwQP2lYeiQJW4i1t9napYQhYMjqi2hij6274GTRfdvZCnDDKSPf7+Pw==\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [#\"RequisitionID\" = _t, #\"Position\" = _t, #\"Department\" = _t, #\"Facility\" = _t, #\"PostingDate\" = _t, #\"FilledDate\" = _t, #\"Status\" = _t, #\"DaysToFill\" = _t, #\"Applications\" = _t, #\"OffersMade\" = _t, #\"OffersAccepted\" = _t, #\"Source\" = _t]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(Source,{{\"PostingDate\", type date}, {\"FilledDate\", type date}, {\"DaysToFill\", Int64.Type}, {\"Applications\", Int64.Type}, {\"OffersMade\", Int64.Type}, {\"OffersAccepted\", Int64.Type}}, \"en-US\")",
+                "in",
+                "    #\"Changed Type\""
+              ]
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ]
+      },
+      {
+        "name": "Training",
+        "lineageTag": "6d08ab14-b118-4882-8b04-b1c528207fd3",
+        "columns": [
+          {
+            "name": "TrainingID",
+            "dataType": "string",
+            "sourceColumn": "TrainingID",
+            "lineageTag": "42bcf6cd-6a72-4ea8-a5fa-0d4de2d2e67f",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "EmployeeID",
+            "dataType": "string",
+            "sourceColumn": "EmployeeID",
+            "lineageTag": "25cb5b4e-154b-4710-910a-7b7e93705b38",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Course",
+            "dataType": "string",
+            "sourceColumn": "Course",
+            "lineageTag": "71ed10a6-8bfe-43e4-851a-78331c050d06",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Category",
+            "dataType": "string",
+            "sourceColumn": "Category",
+            "lineageTag": "0ad0d5bf-b991-4a1b-8f06-883045a3817f",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Date",
+            "dataType": "dateTime",
+            "sourceColumn": "Date",
+            "lineageTag": "95bc9c75-1ecc-492a-88fa-9a6bcad08aa0",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "formatString": "dd-mmm-yyyy"
+          },
+          {
+            "name": "Hours",
+            "dataType": "int64",
+            "sourceColumn": "Hours",
+            "lineageTag": "884f7127-d43b-4c13-ba4e-2d8855867995",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "formatString": "#,0"
+          },
+          {
+            "name": "CostSAR",
+            "dataType": "int64",
+            "sourceColumn": "CostSAR",
+            "lineageTag": "c27f9da2-1bb9-4de2-b5a2-18939fdf4049",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "formatString": "#,0"
+          },
+          {
+            "name": "CompletionStatus",
+            "dataType": "string",
+            "sourceColumn": "CompletionStatus",
+            "lineageTag": "678f0be7-fa47-481b-82f8-4a6b3f9a6c47",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Training",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"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\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [#\"TrainingID\" = _t, #\"EmployeeID\" = _t, #\"Course\" = _t, #\"Category\" = _t, #\"Date\" = _t, #\"Hours\" = _t, #\"CostSAR\" = _t, #\"CompletionStatus\" = _t]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(Source,{{\"Date\", type date}, {\"Hours\", Int64.Type}, {\"CostSAR\", Int64.Type}}, \"en-US\")",
+                "in",
+                "    #\"Changed Type\""
+              ]
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ]
+      },
+      {
+        "name": "Leave",
+        "lineageTag": "745c2a79-721b-4117-9c57-6e71a8d91d20",
+        "columns": [
+          {
+            "name": "LeaveID",
+            "dataType": "string",
+            "sourceColumn": "LeaveID",
+            "lineageTag": "01d0e125-c02a-43ce-85cf-d9765fb83e36",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "EmployeeID",
+            "dataType": "string",
+            "sourceColumn": "EmployeeID",
+            "lineageTag": "d69d9c8e-fa19-4641-85dc-69a40a9ff1c0",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "LeaveType",
+            "dataType": "string",
+            "sourceColumn": "LeaveType",
+            "lineageTag": "a81ace0c-4934-4d99-8b1c-59e229719e8f",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "StartDate",
+            "dataType": "dateTime",
+            "sourceColumn": "StartDate",
+            "lineageTag": "1c7a8373-831a-4c8c-b168-bf4d33b7249a",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "formatString": "dd-mmm-yyyy"
+          },
+          {
+            "name": "Days",
+            "dataType": "int64",
+            "sourceColumn": "Days",
+            "lineageTag": "8331746a-4266-40b7-a03e-3e2ab95f5a7b",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "formatString": "#,0"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Leave",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"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\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [#\"LeaveID\" = _t, #\"EmployeeID\" = _t, #\"LeaveType\" = _t, #\"StartDate\" = _t, #\"Days\" = _t]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(Source,{{\"StartDate\", type date}, {\"Days\", Int64.Type}}, \"en-US\")",
+                "in",
+                "    #\"Changed Type\""
+              ]
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ]
+      },
+      {
+        "name": "DimDepartment",
+        "lineageTag": "39df8100-43a6-4c5e-8864-4cfeaab85dd0",
+        "columns": [
+          {
+            "name": "Department",
+            "dataType": "string",
+            "sourceColumn": "Department",
+            "lineageTag": "bf06b4ba-7656-4506-9ee0-a5ed4e083e9c",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Division",
+            "dataType": "string",
+            "sourceColumn": "Division",
+            "lineageTag": "8ba47855-94fe-47c9-82dd-5210d01f73eb",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          }
+        ],
+        "partitions": [
+          {
+            "name": "DimDepartment",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"bU9BDoMwDPsK6pk9YmKaNmlCCHZDHLLS0Ug0QWk7id+vO3AY5ZbYju30vWrs6lEjkFelqmYk1DCroexVHcUjTXu4sSAO9LrHH/BigcCSMS2MyDNPGXExFNKYBaRGHKwRWLKT8+jS5kNKQqbE1kynP8UtOqCiNZ6jaOOPJFckIG2OqDu9Ob33My+eRlvaimfKKvrAzkjRGfngsVsXl4UlbJK8zPAF\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [#\"Department\" = _t, #\"Division\" = _t])",
+                "in",
+                "    Source"
+              ]
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ]
+      },
+      {
+        "name": "DimFacility",
+        "lineageTag": "83358611-f065-4340-965a-7df7e8453b98",
+        "columns": [
+          {
+            "name": "Facility",
+            "dataType": "string",
+            "sourceColumn": "Facility",
+            "lineageTag": "9cb0db66-87fd-429e-8356-17a6979d2f1f",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "City",
+            "dataType": "string",
+            "sourceColumn": "City",
+            "lineageTag": "f13afd3e-aa3c-4ded-9367-3b58f6ace90e",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Region",
+            "dataType": "string",
+            "sourceColumn": "Region",
+            "lineageTag": "b100f800-cafe-4431-96e2-ec0b8dd87c14",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "FacilityType",
+            "dataType": "string",
+            "sourceColumn": "FacilityType",
+            "lineageTag": "acd86a4d-f051-4e89-a6d2-d9cadf567bf1",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          }
+        ],
+        "partitions": [
+          {
+            "name": "DimFacility",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"i45WckxKTS1S8MgvLsgsScxR0FUIzkgsSkzLrEzMUNJR8kpNSQEzwlOLS1KL8oAsmFKlWB2Ybt/UlMxkoGbn1DygIqAZjlWZVbhNQFWOz5zgxLxEapjjlFiemJJJoilIYRIEdEQKSBucAVJdBAwE4sLDKbEkIxG7duI94ZKYm5uYC9QCZ7gmkh4UvonZ2eAQgDNwB0UsAA==\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [#\"Facility\" = _t, #\"City\" = _t, #\"Region\" = _t, #\"FacilityType\" = _t])",
+                "in",
+                "    Source"
+              ]
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ]
+      },
+      {
+        "name": "Date",
+        "lineageTag": "eab3b5ce-49ec-4c12-b8d8-79b53d93cd34",
+        "dataCategory": "Time",
+        "columns": [
+          {
+            "name": "Date",
+            "dataType": "dateTime",
+            "sourceColumn": "[Date]",
+            "lineageTag": "7e561fd9-40cc-45d9-8f50-0f383b0d5607",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "formatString": "dd-mmm-yyyy",
+            "isKey": true,
+            "type": "calculatedTableColumn",
+            "isNameInferred": true,
+            "isDataTypeInferred": true
+          },
+          {
+            "name": "Year",
+            "dataType": "int64",
+            "sourceColumn": "[Year]",
+            "lineageTag": "793e43a4-095d-4a81-99fe-d6dc30846871",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "formatString": "0",
+            "type": "calculatedTableColumn",
+            "isNameInferred": true,
+            "isDataTypeInferred": true
+          },
+          {
+            "name": "Month Number",
+            "dataType": "int64",
+            "sourceColumn": "[Month Number]",
+            "lineageTag": "747798e4-167c-4c5a-9ac4-96374b5731fd",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "formatString": "0",
+            "isHidden": true,
+            "type": "calculatedTableColumn",
+            "isNameInferred": true,
+            "isDataTypeInferred": true
+          },
+          {
+            "name": "Month",
+            "dataType": "string",
+            "sourceColumn": "[Month]",
+            "lineageTag": "b307b863-0de2-4255-8873-9a3ee862ed6f",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "sortByColumn": "Month Number",
+            "type": "calculatedTableColumn",
+            "isNameInferred": true,
+            "isDataTypeInferred": true
+          },
+          {
+            "name": "MonthStart",
+            "dataType": "dateTime",
+            "sourceColumn": "[MonthStart]",
+            "lineageTag": "34316aa3-2e26-4d35-8ff1-a354e62e6d52",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "formatString": "mmm yyyy",
+            "type": "calculatedTableColumn",
+            "isNameInferred": true,
+            "isDataTypeInferred": true
+          },
+          {
+            "name": "Quarter",
+            "dataType": "string",
+            "sourceColumn": "[Quarter]",
+            "lineageTag": "db6aac0b-c5b0-4b97-bc85-2363f4427366",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "type": "calculatedTableColumn",
+            "isNameInferred": true,
+            "isDataTypeInferred": true
+          },
+          {
+            "name": "Year-Month",
+            "dataType": "string",
+            "sourceColumn": "[Year-Month]",
+            "lineageTag": "766046b3-015f-42f8-b841-f5f906378f28",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "type": "calculatedTableColumn",
+            "isNameInferred": true,
+            "isDataTypeInferred": true
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Date",
+            "mode": "import",
+            "source": {
+              "type": "calculated",
+              "expression": [
+                "ADDCOLUMNS (",
+                "    CALENDAR ( DATE ( 2020, 1, 1 ), DATE ( 2026, 6, 30 ) ),",
+                "    \"Year\", YEAR ( [Date] ),",
+                "    \"Month Number\", MONTH ( [Date] ),",
+                "    \"Month\", FORMAT ( [Date], \"MMM\" ),",
+                "    \"MonthStart\", DATE ( YEAR ( [Date] ), MONTH ( [Date] ), 1 ),",
+                "    \"Quarter\", \"Q\" & FORMAT ( [Date], \"Q\" ),",
+                "    \"Year-Month\", FORMAT ( [Date], \"YYYY-MM\" )",
+                ")"
+              ]
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ]
+      },
+      {
+        "name": "HR Measures",
+        "lineageTag": "0e4a4894-ff01-4cf8-9f5a-00486fddc733",
+        "columns": [
+          {
+            "name": "Col",
+            "dataType": "int64",
+            "sourceColumn": "Col",
+            "lineageTag": "bd617a73-aeda-4e0b-9bd2-e864377ee283",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "isHidden": true
+          }
+        ],
+        "partitions": [
+          {
+            "name": "HR Measures",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = #table ( type table [ Col = Int64.Type ], {} )",
+                "in",
+                "    Source"
+              ]
+            }
+          }
+        ],
+        "measures": [
+          {
+            "name": "Headcount",
+            "expression": [
+              " ",
+              "VAR _d = MAX ( 'Date'[Date] )",
+              "RETURN",
+              "    COUNTROWS ( FILTER ( Employees, Employees[HireDate] <= _d && ( ISBLANK ( Employees[TerminationDate] ) || Employees[TerminationDate] > _d ) ) )"
+            ],
+            "lineageTag": "ebb88939-5cc8-46ab-8618-c53a1a1ea631",
+            "formatString": "#,0",
+            "displayFolder": "Workforce"
+          },
+          {
+            "name": "Saudi Headcount",
+            "expression": [
+              "CALCULATE ( [Headcount], Employees[NationalityGroup] = \"Saudi\" )"
+            ],
+            "lineageTag": "53c341d5-97ca-43cf-83d7-8c7c0828fd10",
+            "formatString": "#,0",
+            "displayFolder": "Saudization"
+          },
+          {
+            "name": "Non-Saudi Headcount",
+            "expression": [
+              "[Headcount] - [Saudi Headcount]"
+            ],
+            "lineageTag": "8165e71b-bb75-4a12-8498-58b113a5b1ea",
+            "formatString": "#,0",
+            "displayFolder": "Saudization"
+          },
+          {
+            "name": "Saudization %",
+            "expression": [
+              "DIVIDE ( [Saudi Headcount], [Headcount] )"
+            ],
+            "lineageTag": "54d79d81-ae95-45f7-a5fd-cb5fefb7e6ae",
+            "formatString": "0.0%",
+            "displayFolder": "Saudization"
+          },
+          {
+            "name": "Saudization Target",
+            "expression": [
+              "0.40"
+            ],
+            "lineageTag": "0fca3081-b6f4-4cdf-9ddb-e55ccadc00c2",
+            "formatString": "0%",
+            "displayFolder": "Saudization"
+          },
+          {
+            "name": "Female Headcount",
+            "expression": [
+              "CALCULATE ( [Headcount], Employees[Gender] = \"Female\" )"
+            ],
+            "lineageTag": "9ceb8feb-f83b-4ed5-9405-ad5c8d47f9d3",
+            "formatString": "#,0",
+            "displayFolder": "Workforce"
+          },
+          {
+            "name": "Female Ratio %",
+            "expression": [
+              "DIVIDE ( [Female Headcount], [Headcount] )"
+            ],
+            "lineageTag": "ff7fffe0-23a5-420f-982b-975c8d9f4756",
+            "formatString": "0.0%",
+            "displayFolder": "Workforce"
+          },
+          {
+            "name": "Hires",
+            "expression": [
+              "COUNTROWS ( FILTER ( Employees, Employees[HireDate] >= MIN ( 'Date'[Date] ) && Employees[HireDate] <= MAX ( 'Date'[Date] ) ) )"
+            ],
+            "lineageTag": "11c26551-9ba7-439e-a5a8-1291c4869e03",
+            "formatString": "#,0",
+            "displayFolder": "Attrition"
+          },
+          {
+            "name": "Terminations",
+            "expression": [
+              "COUNTROWS ( FILTER ( Employees, NOT ISBLANK ( Employees[TerminationDate] ) && Employees[TerminationDate] >= MIN ( 'Date'[Date] ) && Employees[TerminationDate] <= MAX ( 'Date'[Date] ) ) )"
+            ],
+            "lineageTag": "165be5cb-843f-44f6-983d-0838a843ed26",
+            "formatString": "#,0",
+            "displayFolder": "Attrition"
+          },
+          {
+            "name": "Voluntary Terminations",
+            "expression": [
+              "CALCULATE ( [Terminations], Employees[TerminationType] = \"Voluntary\" )"
+            ],
+            "lineageTag": "1e20e87a-50c3-490d-ada6-49cb016153cc",
+            "formatString": "#,0",
+            "displayFolder": "Attrition"
+          },
+          {
+            "name": "Voluntary Share %",
+            "expression": [
+              "DIVIDE ( [Voluntary Terminations], [Terminations] )"
+            ],
+            "lineageTag": "b7ce9d10-d7dd-4327-aa3b-03134e9dc17a",
+            "formatString": "0.0%",
+            "displayFolder": "Attrition"
+          },
+          {
+            "name": "Attrition Rate %",
+            "expression": [
+              "DIVIDE ( [Terminations], AVERAGEX ( VALUES ( 'Date'[MonthStart] ), [Headcount] ) )"
+            ],
+            "lineageTag": "ef5bf2e7-fae3-4aa1-8ff8-813cfaccf623",
+            "formatString": "0.0%",
+            "displayFolder": "Attrition"
+          },
+          {
+            "name": "Net Headcount Change",
+            "expression": [
+              "[Hires] - [Terminations]"
+            ],
+            "lineageTag": "56cdc133-9eba-416e-8148-e9a39f3fe86d",
+            "formatString": "+#,0;-#,0;0",
+            "displayFolder": "Attrition"
+          },
+          {
+            "name": "Avg Tenure (Years)",
+            "expression": [
+              " ",
+              "VAR _d = MAX ( 'Date'[Date] )",
+              "RETURN",
+              "    AVERAGEX ( FILTER ( Employees, Employees[HireDate] <= _d && ( ISBLANK ( Employees[TerminationDate] ) || Employees[TerminationDate] > _d ) ), DATEDIFF ( Employees[HireDate], _d, DAY ) / 365.25 )"
+            ],
+            "lineageTag": "41f93c0d-a0b7-4dfe-bd23-d51a04fc6c80",
+            "formatString": "0.0",
+            "displayFolder": "Workforce"
+          },
+          {
+            "name": "Avg Age",
+            "expression": [
+              " ",
+              "VAR _d = MAX ( 'Date'[Date] )",
+              "RETURN",
+              "    AVERAGEX ( FILTER ( Employees, Employees[HireDate] <= _d && ( ISBLANK ( Employees[TerminationDate] ) || Employees[TerminationDate] > _d ) ), DATEDIFF ( Employees[BirthDate], _d, DAY ) / 365.25 )"
+            ],
+            "lineageTag": "83273126-3065-4da5-854b-b7565cd08559",
+            "formatString": "0.0",
+            "displayFolder": "Workforce"
+          },
+          {
+            "name": "Monthly Payroll (SAR)",
+            "expression": [
+              " ",
+              "VAR _d = MAX ( 'Date'[Date] )",
+              "RETURN",
+              "    SUMX ( FILTER ( Employees, Employees[HireDate] <= _d && ( ISBLANK ( Employees[TerminationDate] ) || Employees[TerminationDate] > _d ) ), Employees[MonthlySalarySAR] )"
+            ],
+            "lineageTag": "2f420ebc-7671-477d-b2e7-c94dacd4546f",
+            "formatString": "#,0",
+            "displayFolder": "Compensation"
+          },
+          {
+            "name": "Avg Monthly Salary (SAR)",
+            "expression": [
+              " ",
+              "VAR _d = MAX ( 'Date'[Date] )",
+              "RETURN",
+              "    AVERAGEX ( FILTER ( Employees, Employees[HireDate] <= _d && ( ISBLANK ( Employees[TerminationDate] ) || Employees[TerminationDate] > _d ) ), Employees[MonthlySalarySAR] )"
+            ],
+            "lineageTag": "4f9ce7ea-055d-42be-a00c-f03a46a5baf8",
+            "formatString": "#,0",
+            "displayFolder": "Compensation"
+          },
+          {
+            "name": "Median Salary (SAR)",
+            "expression": [
+              " ",
+              "VAR _d = MAX ( 'Date'[Date] )",
+              "RETURN",
+              "    MEDIANX ( FILTER ( Employees, Employees[HireDate] <= _d && ( ISBLANK ( Employees[TerminationDate] ) || Employees[TerminationDate] > _d ) ), Employees[MonthlySalarySAR] )"
+            ],
+            "lineageTag": "9570106f-b061-497a-8ec0-df99adaf8262",
+            "formatString": "#,0",
+            "displayFolder": "Compensation"
+          },
+          {
+            "name": "Avg Performance Rating",
+            "expression": [
+              " ",
+              "VAR _d = MAX ( 'Date'[Date] )",
+              "RETURN",
+              "    AVERAGEX ( FILTER ( Employees, Employees[HireDate] <= _d && ( ISBLANK ( Employees[TerminationDate] ) || Employees[TerminationDate] > _d ) ), Employees[PerformanceRating] )"
+            ],
+            "lineageTag": "307f3689-7f11-4609-bf07-9c126f536888",
+            "formatString": "0.00",
+            "displayFolder": "Performance"
+          },
+          {
+            "name": "High Performers %",
+            "expression": [
+              " ",
+              "VAR _d = MAX ( 'Date'[Date] )",
+              "VAR _act = FILTER ( Employees, Employees[HireDate] <= _d && ( ISBLANK ( Employees[TerminationDate] ) || Employees[TerminationDate] > _d ) )",
+              "RETURN",
+              "    DIVIDE ( COUNTROWS ( FILTER ( _act, Employees[PerformanceRating] >= 4.5 ) ), COUNTROWS ( _act ) )"
+            ],
+            "lineageTag": "2bcf7230-968d-40b0-917f-6dc328aaa667",
+            "formatString": "0.0%",
+            "displayFolder": "Performance"
+          },
+          {
+            "name": "Open Positions",
+            "expression": [
+              "CALCULATE ( COUNTROWS ( Recruitment ), Recruitment[Status] = \"Open\" )"
+            ],
+            "lineageTag": "2758f035-34e5-4f7b-ae23-db311218ebc4",
+            "formatString": "#,0",
+            "displayFolder": "Recruitment"
+          },
+          {
+            "name": "Positions Filled",
+            "expression": [
+              "CALCULATE ( COUNTROWS ( Recruitment ), Recruitment[Status] = \"Filled\" )"
+            ],
+            "lineageTag": "dc5a162c-d587-4799-9afe-03bdc8b10e15",
+            "formatString": "#,0",
+            "displayFolder": "Recruitment"
+          },
+          {
+            "name": "Avg Time to Fill (Days)",
+            "expression": [
+              "CALCULATE ( AVERAGE ( Recruitment[DaysToFill] ), Recruitment[Status] = \"Filled\" )"
+            ],
+            "lineageTag": "858332bb-2761-4486-b422-c8c1e4440497",
+            "formatString": "0.0",
+            "displayFolder": "Recruitment"
+          },
+          {
+            "name": "Total Applications",
+            "expression": [
+              "SUM ( Recruitment[Applications] )"
+            ],
+            "lineageTag": "f8f5caf9-5597-47b5-81d4-0ee49653d13f",
+            "formatString": "#,0",
+            "displayFolder": "Recruitment"
+          },
+          {
+            "name": "Offers Made",
+            "expression": [
+              "SUM ( Recruitment[OffersMade] )"
+            ],
+            "lineageTag": "82c66c94-3fc3-470d-baa0-078fab63bcb8",
+            "formatString": "#,0",
+            "displayFolder": "Recruitment"
+          },
+          {
+            "name": "Offers Accepted",
+            "expression": [
+              "SUM ( Recruitment[OffersAccepted] )"
+            ],
+            "lineageTag": "3376681e-7f85-48bd-a73b-7faea02bbbbd",
+            "formatString": "#,0",
+            "displayFolder": "Recruitment"
+          },
+          {
+            "name": "Offer Acceptance %",
+            "expression": [
+              "DIVIDE ( [Offers Accepted], [Offers Made] )"
+            ],
+            "lineageTag": "a1398522-b2df-45f5-8b58-15184e532548",
+            "formatString": "0.0%",
+            "displayFolder": "Recruitment"
+          },
+          {
+            "name": "Applications per Hire",
+            "expression": [
+              "DIVIDE ( [Total Applications], [Positions Filled] )"
+            ],
+            "lineageTag": "701f7bbd-9b0d-4649-97db-3b6d3666a369",
+            "formatString": "0.0",
+            "displayFolder": "Recruitment"
+          },
+          {
+            "name": "Training Hours",
+            "expression": [
+              "SUM ( Training[Hours] )"
+            ],
+            "lineageTag": "45294810-04e4-4ef2-b124-b1a8a2ba5dbf",
+            "formatString": "#,0",
+            "displayFolder": "Training"
+          },
+          {
+            "name": "Training Cost (SAR)",
+            "expression": [
+              "SUM ( Training[CostSAR] )"
+            ],
+            "lineageTag": "01fdd440-4212-460b-8c32-7b01efe2dd94",
+            "formatString": "#,0",
+            "displayFolder": "Training"
+          },
+          {
+            "name": "Trainings Delivered",
+            "expression": [
+              "COUNTROWS ( Training )"
+            ],
+            "lineageTag": "896a0797-ec0d-4812-8c8c-7804487eb1c3",
+            "formatString": "#,0",
+            "displayFolder": "Training"
+          },
+          {
+            "name": "Training Completion %",
+            "expression": [
+              "DIVIDE ( CALCULATE ( COUNTROWS ( Training ), Training[CompletionStatus] = \"Completed\" ), COUNTROWS ( Training ) )"
+            ],
+            "lineageTag": "a3f88a43-6956-4aab-bd83-64fc0eb18869",
+            "formatString": "0.0%",
+            "displayFolder": "Training"
+          },
+          {
+            "name": "Training Hours per Employee",
+            "expression": [
+              "DIVIDE ( [Training Hours], [Headcount] )"
+            ],
+            "lineageTag": "2b2d7824-84d6-4250-9298-dea27fe908de",
+            "formatString": "0.0",
+            "displayFolder": "Training"
+          },
+          {
+            "name": "Leave Days",
+            "expression": [
+              "SUM ( 'Leave'[Days] )"
+            ],
+            "lineageTag": "3b54c6e6-d558-42b9-a915-f563f42acbf3",
+            "formatString": "#,0",
+            "displayFolder": "Leave"
+          },
+          {
+            "name": "Sick Leave Days",
+            "expression": [
+              "CALCULATE ( SUM ( 'Leave'[Days] ), 'Leave'[LeaveType] = \"Sick\" )"
+            ],
+            "lineageTag": "a83c1b2e-6413-4afd-becf-8430f32ae069",
+            "formatString": "#,0",
+            "displayFolder": "Leave"
+          },
+          {
+            "name": "Absenteeism %",
+            "expression": [
+              "DIVIDE ( [Sick Leave Days], [Headcount] * COUNTROWS ( VALUES ( 'Date'[MonthStart] ) ) * 22 )"
+            ],
+            "lineageTag": "cd9cf320-1766-441e-abe6-b55983fba346",
+            "formatString": "0.00%",
+            "displayFolder": "Leave"
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "name": "2a4bfa0d-b991-4f65-9af3-bd2ba754a86e",
+        "fromTable": "Leave",
+        "fromColumn": "EmployeeID",
+        "toTable": "Employees",
+        "toColumn": "EmployeeID"
+      },
+      {
+        "name": "bd6fcd60-1a53-4625-8a17-72f555992ef6",
+        "fromTable": "Training",
+        "fromColumn": "EmployeeID",
+        "toTable": "Employees",
+        "toColumn": "EmployeeID"
+      },
+      {
+        "name": "2e47ddb4-6896-47c5-8541-0dd86c13c887",
+        "fromTable": "Leave",
+        "fromColumn": "StartDate",
+        "toTable": "Date",
+        "toColumn": "Date"
+      },
+      {
+        "name": "bc046037-9d52-4fc0-b16e-1891f262d98d",
+        "fromTable": "Training",
+        "fromColumn": "Date",
+        "toTable": "Date",
+        "toColumn": "Date"
+      },
+      {
+        "name": "cc744753-b9d8-4371-be0c-30076bcd1167",
+        "fromTable": "Recruitment",
+        "fromColumn": "PostingDate",
+        "toTable": "Date",
+        "toColumn": "Date"
+      },
+      {
+        "name": "5a5b6451-a470-43f3-9712-2ebff2a070ae",
+        "fromTable": "Employees",
+        "fromColumn": "Department",
+        "toTable": "DimDepartment",
+        "toColumn": "Department"
+      },
+      {
+        "name": "bdd6103c-f6cf-417d-8829-d0187ef6e8d8",
+        "fromTable": "Recruitment",
+        "fromColumn": "Department",
+        "toTable": "DimDepartment",
+        "toColumn": "Department"
+      },
+      {
+        "name": "4902a4ab-2fb8-4339-b02e-5ec4785f2fcb",
+        "fromTable": "Employees",
+        "fromColumn": "Facility",
+        "toTable": "DimFacility",
+        "toColumn": "Facility"
+      },
+      {
+        "name": "801edad9-87be-4c25-971c-ecfd643c2e13",
+        "fromTable": "Recruitment",
+        "fromColumn": "Facility",
+        "toTable": "DimFacility",
+        "toColumn": "Facility"
+      }
+    ],
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "Language": "en-US",
+            "Version": "1.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"Employees\", \"Recruitment\", \"Training\", \"Leave\", \"DimDepartment\", \"DimFacility\", \"HR Measures\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "0"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.130.0.0 (Main)"
+      }
+    ]
+  }
+}
